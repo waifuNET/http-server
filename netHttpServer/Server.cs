@@ -33,7 +33,7 @@ namespace netHttpServer
             while (true)
             {
                 HttpListenerContext context = listener.GetContext();
-                Task.Run(() => Client.ClientHandler(listener, context));
+                Task.Run(() => Client.ClientHandler(context));
             }
         }
     }

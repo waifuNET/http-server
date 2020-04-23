@@ -10,7 +10,7 @@ namespace netHttpServer
     class Client
     {
         static string DefaultFilePath = Classes.getStartupPath + "/www";
-        public static async Task ClientHandler(HttpListener listener, HttpListenerContext context)
+        public static async Task ClientHandler(HttpListenerContext context)
         {
             HttpListenerRequest request = context.Request;
             HttpListenerResponse response = context.Response;
