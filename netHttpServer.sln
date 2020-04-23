@@ -5,23 +5,6 @@ VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "netHttpServer", "netHttpServer\netHttpServer.csproj", "{63E26B50-991C-47DA-9669-E2E9A49020C4}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "www", "www", "{C96EE51A-757A-4CB7-B04A-99B773E3C33C}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "example.com", "example.com", "{E59A6458-D1C7-4DB8-B299-7F49112238CB}"
-	ProjectSection(SolutionItems) = preProject
-		netHttpServer\bin\Debug\netcoreapp3.1\www\example.com\favicon.ico = netHttpServer\bin\Debug\netcoreapp3.1\www\example.com\favicon.ico
-		netHttpServer\bin\Debug\netcoreapp3.1\www\example.com\index.html = netHttpServer\bin\Debug\netcoreapp3.1\www\example.com\index.html
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "system", "system", "{6C4FFB37-D2A7-499F-AD65-1015976DDF55}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "errors", "errors", "{60E78670-00E6-4C70-BC79-C78B7BD123F0}"
-	ProjectSection(SolutionItems) = preProject
-		netHttpServer\bin\Debug\netcoreapp3.1\www\system\errors\error.html = netHttpServer\bin\Debug\netcoreapp3.1\www\system\errors\error.html
-		netHttpServer\bin\Debug\netcoreapp3.1\www\system\errors\error.png = netHttpServer\bin\Debug\netcoreapp3.1\www\system\errors\error.png
-		netHttpServer\bin\Debug\netcoreapp3.1\www\system\errors\error404.html = netHttpServer\bin\Debug\netcoreapp3.1\www\system\errors\error404.html
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,11 +18,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{E59A6458-D1C7-4DB8-B299-7F49112238CB} = {C96EE51A-757A-4CB7-B04A-99B773E3C33C}
-		{6C4FFB37-D2A7-499F-AD65-1015976DDF55} = {C96EE51A-757A-4CB7-B04A-99B773E3C33C}
-		{60E78670-00E6-4C70-BC79-C78B7BD123F0} = {6C4FFB37-D2A7-499F-AD65-1015976DDF55}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {08DEBF59-3965-4A5B-8347-E8133AF9F109}
